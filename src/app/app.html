@@ -1,0 +1,11 @@
+<div class="page">
+
+  <app-options-form   (addoption)="onAddEntry($event)"></app-options-form>
+
+  <app-history-list 
+    [entries]="entryService.getEntries()" 
+    (delete)="onDeleteEntry($event)">
+  </app-history-list>
+  
+</div>
+

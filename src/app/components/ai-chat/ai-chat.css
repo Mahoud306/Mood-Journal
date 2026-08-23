@@ -1,0 +1,35 @@
+:host {
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+
+}
+
+.ai-fab {
+
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background-color: #549758;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.95em;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.ai-fab:hover {
+
+  background-color: #4a854e;
+
+}
+
+.ai-fab:active {
+
+  background-color: #2e7d32;
+
+}
